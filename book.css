@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+
+}
+.bookTextInfo {
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.pib {
+    padding-top: 10px;
+    text-align: center;
+    width: 20%;
+}
+.bookInfo {
+    display: flex;
+    border-bottom: 5px solid #92570f;
+
+}
+#p1 {
+    color: cornflowerblue;
+    text-decoration-line: underline;
+}
+#p2 {
+    text-align: right;
+    color: cornflowerblue;
+    text-decoration-line: underline;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shortInfo {
+    border-bottom: 5px solid #92570f;
+}
+.authorImageSpace {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.authorInfo {
+    display: flex;
+    border-bottom: 5px solid #92570f;
+}
+.aboutAuthor {
+    padding-top: 10px;
+    text-align: center;
+    width: 20%;
+    text-decoration-line: underline;
+    color: cornflowerblue;
+}
+.authorImage {
+    width: 200px;
+    align-content: center;
+}
+.authorTextInfo {
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+#p3 {
+    text-align: right;
+    text-decoration: none;
+    color: cornflowerblue;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+#zmist {
+    color: cornflowerblue;
+    text-decoration-line: underline;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.shortAboutBookSpace {
+    border-top: 5px solid dimgrey;
+    border-bottom: 5px solid dimgrey;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    min-height: calc(50vh - 100px);}
+
+#ref{
+
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#ref:hover{
+    text-decoration: none;
+    color: gold;
+}
+#ref1{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#ref1:hover{
+    text-decoration: none;
+    color: gold;
+}
+#aut{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#enter2{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#zm1{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#zm3{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#zm4{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#zm5{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#zm6{
+    text-decoration: none;
+    color: cornflowerblue;
+}

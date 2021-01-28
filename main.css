@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+    background-color: teal;
+
+}
+.first{
+    margin-left: 20px;
+    color: #a2d21e;
+}
+.second{
+    margin-left: 50px;
+    color: #a2d21e;
+}
+.log{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.cotent{
+    display: flex;
+    justify-content: space-between;
+}
+#scr1{
+    width: 200px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#hr1{
+    background-color: #92570f;
+    display: block;
+    margin: 0px;
+    padding: 1px;
+}
+#hr2 {
+    background-color: aliceblue;
+    padding: 5px;
+}
+#hr3{
+    background-color: aliceblue;
+    padding: 5px;
+
+}
+#main{
+    margin: 5px;
+}
+#detal{
+    padding-left: 1200px;
+
+}
+.foot{
+    background-color: teal;
+     /*margin-top: 235px;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+
+}
+#ref{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#enter{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#enter2{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#qwe{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: teal;
+    padding-bottom: 30px;
+    color: #a2d21e;
+    height: 300px; /* Высота блока */
+    border: 1px solid #000; /* Параметры рамки */
+    background-size: cover;
+    
+}
+.login{
+    /*text-align: center;*/
+    /*padding-top: 100px;*/
+    display: flex;
+    justify-content: center;
+
+}
+.border_login{
+    margin-top: 30px;
+    height: 400px;
+    width: 500px;
+    border: 2px solid #92570f;
+    background-color: antiquewhite;
+}
+.header_login{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 30px;
+    background-color: teal;
+    border:2px solid #92570f;
+}
+.userlog{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.passlog{
+    padding-left: 116px;
+    padding-top: 50px;
+}
+#send1{
+    padding-top: 30px;
+    padding-left: 310px;
+}
+#send{
+    background-color:teal ;
+}
