@@ -62,13 +62,17 @@ body{
     background-color: teal;
     border:2px solid #92570f;
 }
-.userlog{
+.prizviche{
     padding-left: 150px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
-.passlog{
+.name{
     padding-left: 116px;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+.username{
+    padding-left: 116px;
+    padding-top: 20px;
 }
 .foot{
     background-color: teal;
@@ -78,4 +82,15 @@ body{
     bottom: 0;
     width: 100%;
     height: 65px;
+}
+#send1{
+    padding-top: 20px;
+    padding-left: 310px;
+}
+#send{
+    background-color:teal ;
+}
+#pass{
+    padding-left: 116px;
+    padding-top: 20px;
 }
