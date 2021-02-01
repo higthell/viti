@@ -62,18 +62,7 @@ body{
     background-color: teal;
     border:2px solid #92570f;
 }
-.prizviche{
-    padding-left: 150px;
-    padding-top: 20px;
-}
-.name{
-    padding-left: 116px;
-    padding-top: 20px;
-}
-.username{
-    padding-left: 116px;
-    padding-top: 20px;
-}
+
 .foot{
     background-color: teal;
     /*margin-top: 235px;*/
@@ -85,16 +74,62 @@ body{
 }
 #send1{
     padding-top: 20px;
-    padding-left: 310px;
+    padding-left: 220px;
 }
 #send{
     background-color:teal ;
 }
-#pass{
-    padding-left: 116px;
-    padding-top: 20px;
-}
+
+
 #prizz{
-    padding-left: 116px;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+#prizviche{
+    padding-left: 105px;
+    padding-top: 10px;
+}
+#namever{
+    padding-left: 165px;
+    padding-top: 10px;
+}
+#name{
+    padding-left: 105px;
+    padding-top: 10px;
+}
+#logver{
+    padding-left: 165px;
+    padding-top: 10px;
+}
+#username{
+    padding-left: 105px;
+    padding-top: 10px;
+}
+#group{
+    padding-left: 135px;
+    padding-top: 10px;
+}
+#sel{
+    padding-left: 115px;
+    padding-top: 10px;
+}
+#selected{
+    padding-left: 105px;
+    padding-top: 10px;
+}
+#passver{
+    padding-left: 165px;
+    padding-top: 10px;
+}
+#pass{
+    padding-left: 105px;
+    padding-top: 10px;
+}
+#passverpid{
+    padding-left: 110px;
+    padding-top: 10px;
+}
+#passpid{
+    padding-left: 105px;
     padding-top: 10px;
 }
