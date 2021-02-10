@@ -37,10 +37,36 @@
 // fun(numb);
 
 //4
-let x = +prompt("first numb : ")
-let y = +prompt("second numb : ")
-let z = +prompt("threrd numb : ")
-function calculate(x , y ,z){
-    return console.log((x+y+z)/3);
+
+// let x = +prompt("first numb : ")
+// let y = +prompt("second numb : ")
+// let z = +prompt("threrd numb : ")
+// function calculate(x , y ,z){
+//     return console.log((x+y+z)/3);
+// }
+// calculate(x, y ,z);
+
+// 5
+
+let n = +prompt("first numb : ")
+let x = +prompt("second numb : ")
+let y = +prompt("threrd numb : ")
+function isDivisible(n , x , y){
+    
+    // 1
+    // if(n % x==0 && n % y==0){
+    //     return console.log(true);
+    // }
+    // else {
+    //     return console.log(false);
+    // }
+
+    // 2
+
+    // console.log(n%x === 0 && n%y==0 ? true : false);
+
+    // 3
+
+    // console.log(n%x === 0 && n%y==0);
 }
-calculate(x, y ,z);
+isDivisible(n , x , y);
