@@ -48,11 +48,12 @@
 
 // 5
 
+/*
 let n = +prompt("first numb : ")
 let x = +prompt("second numb : ")
 let y = +prompt("threrd numb : ")
 function isDivisible(n , x , y){
-    
+
     // 1
     // if(n % x==0 && n % y==0){
     //     return console.log(true);
@@ -69,4 +70,20 @@ function isDivisible(n , x , y){
 
     // console.log(n%x === 0 && n%y==0);
 }
-isDivisible(n , x , y);
+isDivisible(n , x , y);*/
+
+// 6
+
+let n = +prompt("size : ");
+let arr = [n];
+let sum = 0;
+for(let i=0; i<n; i++){
+    arr[i]= Math.round(Math.random() * 100);
+    sum += arr[i];
+}
+console.log(arr)
+console.log("Max number : " + arr.sort((x,y)=>y-x)[0]);
+console.log("Min number : " + arr.sort((x,y)=>x-y)[0]);
+console.log("Sum : " + sum);
+console.log("seredne  : " + sum/n);
+console.log("nepar  : " + arr.filter(x=>x%2!==0));
