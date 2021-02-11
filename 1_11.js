@@ -74,16 +74,39 @@ isDivisible(n , x , y);*/
 
 // 6
 
-let n = +prompt("size : ");
-let arr = [n];
-let sum = 0;
-for(let i=0; i<n; i++){
-    arr[i]= Math.round(Math.random() * 100);
-    sum += arr[i];
-}
-console.log(arr)
-console.log("Max number : " + arr.sort((x,y)=>y-x)[0]);
-console.log("Min number : " + arr.sort((x,y)=>x-y)[0]);
-console.log("Sum : " + sum);
-console.log("seredne  : " + sum/n);
-console.log("nepar  : " + arr.filter(x=>x%2!==0));
+// let n = +prompt("size : ");
+// let arr = [n];
+// let sum = 0;
+// for(let i=0; i<n; i++){
+//     arr[i]= Math.round(Math.random() * 100);
+//     sum += arr[i];
+// }
+// console.log(arr)
+// console.log("Max number : " + arr.sort((x,y)=>y-x)[0]);
+// console.log("Min number : " + arr.sort((x,y)=>x-y)[0]);
+// console.log("Sum : " + sum);
+// console.log("seredne  : " + sum/n);
+// console.log("nepar  : " + arr.filter(x=>x%2!==0));
+
+//7
+
+// let arr = [5,5];
+// for(let i=0; i<5; i++) {
+//     for (let j = 0; j<5 ; j++)
+//     {
+//         min = Math.floor(10)
+//         max = Math.ceil(-10)
+//         arr[i,j] = Math.floor(Math.random() * (max - min)) + min;
+//         if(i==j && arr[i,j]>0){
+//             arr[i,j] = 1;
+//         }
+//         if(i==j && arr[i,j]<0){
+//             arr[i,j] = 0;
+//         }
+//     }
+//     console.log(arr);
+// }
+
+// 8
+
+
