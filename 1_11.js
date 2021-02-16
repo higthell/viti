@@ -109,40 +109,71 @@ isDivisible(n , x , y);*/
 
 // 8
 
-let x  = +prompt("first numb : ");
-let y  = +prompt("second numb : ");
-let text = prompt("change functon: add , sub , mul , div ");
-console.log("first numb : " + x  +  "  second numb : " + y)
-if(text == "add"){
-    console.log("add : " + add(x ,y));
-}
-if(text == "sub"){
-    console.log("sub : " + sub(x ,y));
-}
-if(text == "mul"){
-    console.log("mul : " + mul(x ,y));
-}
-if(text == "mul"){
-    console.log("mul : " + mul(x ,y));
-}
-if(text == "div"){
-    console.log("div : " + div(x ,y));
-}
-function div(x,y){
-    if(y==0){
-       return " nov div na 0 "
+// let x  = +prompt("first numb : ");
+// let y  = +prompt("second numb : ");
+// let text = prompt("change functon: add , sub , mul , div ");
+// console.log("first numb : " + x  +  "  second numb : " + y)
+// if(text == "add"){
+//     console.log("add : " + add(x ,y));
+// }
+// if(text == "sub"){
+//     console.log("sub : " + sub(x ,y));
+// }
+// if(text == "mul"){
+//     console.log("mul : " + mul(x ,y));
+// }
+// if(text == "mul"){
+//     console.log("mul : " + mul(x ,y));
+// }
+// if(text == "div"){
+//     console.log("div : " + div(x ,y));
+// }
+// function div(x,y){
+//     if(y==0){
+//        return " nov div na 0 "
+//     }
+//     else{
+//         return x/y;
+//     }
+// }
+// function  mul(x, y){
+//     return x*y;
+// }
+// function sub(x ,y){
+//     return x-y;
+// }
+// function add(x ,y){
+//     return  x+y;
+// }
+
+// 9
+
+let numb = +prompt(" numb : ");
+
+function belov(numb){
+    if (numb>0){
+        return numb + " big then 0 "
     }
-    else{
-        return x/y;
+    else {return numb + " menshe 0 "}
+}
+console.log(belov(numb));
+function prost (numb){
+    let arr  = [];
+    let n = 1000;
+    for (let i = 2; i <= n; i++) {
+        let flag=1;
+        for (let j = 2; (j <= i/2)&&(flag==1); j=j+1) {
+            if (i%j==0) {
+                flag=0}
+        }
+
+        if (flag==1 && numb !=arr[i]) { return "whodut";}
     }
 }
-function  mul(x, y){
-    return x*y;
-}
-function sub(x ,y){
-    return x-y;
-}
-function add(x ,y){
-    return  x+y;
-}
+
+console.log(prost(numb));
+
+let dog = {name: "sharik" , breed: "MAskif"};
+console.dir(dog.name)
+
 
