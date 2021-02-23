@@ -157,23 +157,49 @@ function belov(numb){
     else {return numb + " menshe 0 "}
 }
 console.log(belov(numb));
+
+
 function prost (numb){
-    let arr  = [];
     let n = 1000;
     for (let i = 2; i <= n; i++) {
         let flag=1;
-        for (let j = 2; (j <= i/2)&&(flag==1); j=j+1) {
-            if (i%j==0) {
+        for (let j = 2; (j <= i/2)&&(flag===1); j++) {
+            if (i%j===0) {
                 flag=0}
-        }
 
-        if (flag==1 && numb !=arr[i]) { return "whodut";}
+        }
+        if (flag==1 && numb==i){
+            return "whodut";
+        }
     }
+    return 'newhodut';
 }
 
 console.log(prost(numb));
+div2='';
 
-let dog = {name: "sharik" , breed: "MAskif"};
-console.dir(dog.name)
+
+function orDiv(numb , div2){
+    if(numb % 2 ==0){
+        div2 += "div na 2  \n" ;
+    }
+     if(numb % 3==0){
+         div2 += "div na 3 \n";
+    }
+     if(numb % 5==0){
+         div2 += "div na 5 \n";
+    }
+     if(numb % 6==0){
+         div2 += "div na 6 \n";
+    }
+     if(numb % 9==0){
+         div2 += "div na 9 \n";
+    }
+     return div2;
+}
+
+console.log(orDiv(numb , div2));
+
+
 
 
