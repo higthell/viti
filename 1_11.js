@@ -148,58 +148,72 @@ isDivisible(n , x , y);*/
 
 // 9
 
-let numb = +prompt(" numb : ");
+// let numb = +prompt(" numb : ");
+//
+// function belov(numb){
+//     if (numb>0){
+//         return numb + " big then 0 "
+//     }
+//     else {return numb + " menshe 0 "}
+// }
+// console.log(belov(numb));
+//
+//
+// function prost (numb){
+//     let n = 1000;
+//     for (let i = 2; i <= n; i++) {
+//         let flag=1;
+//         for (let j = 2; (j <= i/2)&&(flag===1); j++) {
+//             if (i%j===0) {
+//                 flag=0}
+//
+//         }
+//         if (flag==1 && numb==i){
+//             return "whodut";
+//         }
+//     }
+//     return 'newhodut';
+// }
+//
+// console.log(prost(numb));
+// div2='';
+//
+//
+// function orDiv(numb , div2){
+//     if(numb % 2 ==0){
+//         div2 += "div na 2  \n" ;
+//     }
+//      if(numb % 3==0){
+//          div2 += "div na 3 \n";
+//     }
+//      if(numb % 5==0){
+//          div2 += "div na 5 \n";
+//     }
+//      if(numb % 6==0){
+//          div2 += "div na 6 \n";
+//     }
+//      if(numb % 9==0){
+//          div2 += "div na 9 \n";
+//     }
+//      return div2;
+// }
+//
+// console.log(orDiv(numb , div2));
 
-function belov(numb){
-    if (numb>0){
-        return numb + " big then 0 "
-    }
-    else {return numb + " menshe 0 "}
-}
-console.log(belov(numb));
 
+// 10
 
-function prost (numb){
-    let n = 1000;
-    for (let i = 2; i <= n; i++) {
-        let flag=1;
-        for (let j = 2; (j <= i/2)&&(flag===1); j++) {
-            if (i%j===0) {
-                flag=0}
-
+let arr = [1, 'arr' , 3 , 5 , 'tyy']
+console.log(arr);
+function strit(arr){
+    for(let i = 0; i < arr.length; i++){
+        if(Number.isInteger(arr[i])){
+            arr[i] *= arr[i];
         }
-        if (flag==1 && numb==i){
-            return "whodut";
-        }
     }
-    return 'newhodut';
+    return arr;
 }
-
-console.log(prost(numb));
-div2='';
-
-
-function orDiv(numb , div2){
-    if(numb % 2 ==0){
-        div2 += "div na 2  \n" ;
-    }
-     if(numb % 3==0){
-         div2 += "div na 3 \n";
-    }
-     if(numb % 5==0){
-         div2 += "div na 5 \n";
-    }
-     if(numb % 6==0){
-         div2 += "div na 6 \n";
-    }
-     if(numb % 9==0){
-         div2 += "div na 9 \n";
-    }
-     return div2;
-}
-
-console.log(orDiv(numb , div2));
-
+console.log(strit(arr));
 
 
 
